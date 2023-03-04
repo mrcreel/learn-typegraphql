@@ -1,0 +1,32 @@
+{
+  "name": "learn-typegraphql",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "index": "nodemon -w src --ext ts --exec ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@types/node": "18.14.6",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "apollo-server": "^3.12.0",
+    "eslint": "8.35.0",
+    "eslint-config-next": "13.2.3",
+    "next": "13.2.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1",
+    "typeorm": "^0.3.12"
+  },
+  "devDependencies": {
+    "mongodb": "^3.7.3",
+    "nodemon": "^2.0.21",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
+}

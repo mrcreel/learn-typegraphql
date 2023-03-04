@@ -1,0 +1,10 @@
+{
+  "type": "mongodb",
+  "url": "mongodb+srv://michael:michael_password@ms-prep-football-archiv.1dbe7gc.mongodb.net/learnTypegraphql?retryWrites=true&w=majority",
+  "useNewUrlParser": true,
+  "logging": true,
+  "entities": [
+    "./src/models/*.ts"
+  ],
+  "synchronize": true
+}
